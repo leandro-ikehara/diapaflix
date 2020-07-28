@@ -1,0 +1,185 @@
+{
+  "categorias": [
+    {
+      "titulo": "Cinema",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Críticas e curiosidades do Cinema",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+      "videos": [
+        {
+          "titulo": "Duvido você encontrar um treino que o Leandro não tenha participado",
+          "url": "https://youtu.be/OjGyTK3hdKA"
+        },
+        {
+          "titulo": "Pipocando com Bruno Bock e Rolandinho",
+          "url": "https://youtu.be/7MoTQxm31TM"
+        },
+        {
+          "titulo": "Canal Peewee com Léo e Miguel",
+          "url": "https://youtu.be/92_DTzr3l1M"
+        },
+        {
+          "titulo": "Super 8 com Otavio Ugá",
+          "url": "https://youtu.be/AJbNGitMVpc"
+        },
+        {
+          "titulo": "Oi, eu sou a Lully!",
+          "url": "https://youtu.be/kNKSPMj-B5w"
+        },
+        {
+          "titulo": "Sessão Nerd com Ranieri Quadros",
+          "url": "https://youtu.be/VJglJEquspI"
+        },
+        {
+          "titulo": "Refúgio Cult com @lucasthemania",
+          "url": "https://youtu.be/hZ4ryy8SyI0"
+        },
+        {
+          "titulo": "Gustavo Cunha",
+          "url": "https://youtu.be/XCBPG9wBaTQ"
+        }        
+      ]
+    },
+    {
+      "titulo": "Séries",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Análises e teorias das suas séries favoritas",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+      "videos": [
+        {
+          "titulo": "Natalia Kreuser (antigo canal 'Kreuser tipo Freud')",
+          "url": "https://youtu.be/7P1lBY--tGM"
+        },
+        {
+          "titulo": "Lucas Torres",
+          "url": "https://youtu.be/kBudWlHKN48"
+        },
+        {
+          "titulo": "Carol Moreira",
+          "url": "https://youtu.be/f4zW3dVq5vE"
+        },
+        {
+          "titulo": "A Gente Faz Agora com João Victor",
+          "url": "https://youtu.be/ipbtz3mZLgM"
+        }, 
+        {
+          "titulo": "Ei Nerds, tranks? Peter aqui!",
+          "url": "https://youtu.be/5ghy2HZ95RU"
+        }
+      ]
+    },
+    {
+      "titulo": "Curiosidades",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Assuntos curiosos para desocupados",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "Você Sabia, com Daniel Molo e Lukas Marques",
+          "url": "https://youtu.be/EJDAN2c8f6U"
+        },
+        {
+          "titulo": "Fatos Desconhecidos",
+          "url": "https://youtu.be/hSGNQtmQ--g"
+        },
+        {
+          "titulo": "Nerdologia com Átila Iamarino e Felipe Figueiredo",
+          "url": "https://youtu.be/Ko7KTVpIwzQ"
+        },
+        {
+          "titulo": "Ciência Todo Dia com Pedro Loos",
+          "url": "https://youtu.be/4s28mk9qZXs"
+        }
+      ]
+    },
+    {
+      "titulo": "Comédia",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Thiago Ventura",
+          "url": "https://youtu.be/75fK0iwhxdE"
+        },
+        {
+          "titulo": "Afonso Padilha",
+          "url": "https://youtu.be/FPs2RQ85Jms"
+        },
+        {
+          "titulo": "Apóstolo Arnaldo",
+          "url": "https://youtu.be/cw0JuxjZUPM"
+        },
+        {
+          "titulo": "Porta dos Fundos",
+          "url": "https://youtu.be/mXANY0T1UTk"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Pra você, que curte uma gameplay",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "E aí players, tudo beleza? Eu sou o Fiaspo e seguinteeee",
+          "url": "https://youtu.be/bA1zL2DahpE"
+        },
+        {
+          "titulo": "Jiraiya",
+          "url": "https://youtu.be/4ZMyq9LivJo"
+        },
+        {
+          "titulo": "Gameplayrj com Davy Jones",
+          "url": "https://youtu.be/cTjaLpT9rj4"
+        },
+        {
+          "titulo": "Pipocando Games com Gaybol, Rolandinho e Damiani",
+          "url": "https://youtu.be/aIt743Yz40U"
+        },
+        {
+          "titulo": "Sidão do Game",
+          "url": "https://youtu.be/yGSqqYS4bYk"
+        }
+      ]
+    },
+    {
+      "titulo": "Alura",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Um oferecimento Alura durante a pandemia",
+        "url": "https://www.alura.com.br/imersao-react"
+      },
+      "videos": [
+        {
+          "titulo": "#ImersãoReact",
+          "url": "https://youtu.be/Dcn-tVmSxyU"
+        },
+        {
+          "titulo": "#ImersãoGameDev",
+          "url": "https://youtu.be/NAGb_i94UYo"
+        },
+        {
+          "titulo": "#ImersãoHipsterCSS",
+          "url": "https://youtu.be/iriinRSXvVc"
+        },
+        {
+          "titulo": "#QuarentenaDados",
+          "url": "https://youtu.be/OH39rmnIRCY"
+        },
+        {
+          "titulo": "#QuarentenaDev",
+          "url": "https://youtu.be/vZAKCJnb3-0"
+        }
+      ]
+    }
+  ]
+}
