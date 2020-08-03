@@ -1,0 +1,16 @@
+{
+    "categorias": [
+      {
+        "id": 1,
+        "titulo": "Front End",
+        "descricao": "Categoria da hora",
+        "cor": "#6BD1FF"
+      },
+      {
+        "id": 2,
+        "titulo": "Cultura Japa",
+        "descricao": "Categoria da hora",
+        "cor": "#FF0000"
+      }
+    ]
+}
