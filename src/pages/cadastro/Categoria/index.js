@@ -17,13 +17,12 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    const URL = window.location.href.includes('localhost')
+    const URL = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
       : 'https://diapaflix.herokuapp.com/categorias';
-
     fetch(URL)
-      .then(async (respostaDoServer) => {
-        const resposta = await respostaDoServer.json();
+      .then(async (respostaDoServidor) => {
+        const resposta = await respostaDoServidor.json();
         setCategorias([
           ...resposta,
         ]);
@@ -50,7 +49,6 @@ function CadastroCategoria() {
 
         <FormField
           label="Nome da Categoria"
-          type="text"
           name="nome"
           value={values.nome}
           onChange={handleChange}
@@ -79,13 +77,13 @@ function CadastroCategoria() {
 
       {categorias.length === 0 && (
         <div>
+          {/* Cargando... */}
           Carregando...
         </div>
       )}
 
       <ul>
         {categorias.map((categoria) => (
-          // eslint-disable-next-line react/no-array-index-key
           <li key={`${categoria.titulo}`}>
             {categoria.titulo}
           </li>

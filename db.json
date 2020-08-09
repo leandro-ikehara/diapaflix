@@ -1,195 +1,243 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Treinos",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "O importante é não ficar parado",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
-      },
-      {
-        "id": 2,
-        "titulo": "Cultura Japa",
-        "cor": "red",
-        "link_extra": {
-          "text": "Acha que manja de cultura japa só pelos animes e comida? Chega mais!",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
-        }
-      },
-      {
-        "id": 3,
-        "titulo": "Cinema",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Seja na telona ou na telinha, o entretenimento é aqui",
-          "url": "https://www.alura.com.br/cursos-online-mobile"
-        }
-      },
-      {
-        "id": 4,
-        "titulo": "Séries",
-        "cor": "orange",
-        "link_extra": {
-          "text": "Nessa pandemia, em qual temporada sua vida está?",
-          "url": "https://www.alura.com.br/cursos-online-mobile"
-        }
-      },
-      {
-        "id": 5,
-        "titulo": "Culinária",
-        "cor": "red",
-        "link_extra": {
-          "text": "Uma viagem gastronômica",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
+  "categorias": [
+    {
+      "id": 6,
+      "titulo": "日本の文化",
+      "cor": "red",
+      "link_extra": {
+        "text": "Cultura Japa",
+        "url": ""
       }
-    ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
-      },
-      {
-        "id": 2,
-        "categoriaId": 1,
-        "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
-      },
-      {
-        "id": 3,
-        "categoriaId": 1,
-        "titulo": "Componentização com VanillaJS #AluraMais",
-        "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
-      },
-      {
-        "id": 4,
-        "categoriaId": 1,
-        "titulo": "Pare de chutar e aprenda a display: inline #01",
-        "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-      },
-      {
-        "id": 5,
-        "categoriaId": 1,
-        "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-        "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-      },
-      {
-        "id": 6,
-        "categoriaId": 1,
-        "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-      },
-      {
-        "id": 7,
-        "categoriaId": 1,
-        "titulo": "Novidades do Angular v9",
-        "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-      },
-      {
-        "id": 8,
-        "categoriaId": 2,
-        "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-        "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-      },
-      {
-        "id": 9,
-        "categoriaId": 2,
-        "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-        "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-      },
-      {
-        "id": 10,
-        "categoriaId": 2,
-        "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-        "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-      },
-      {
-        "id": 11,
-        "categoriaId": 2,
-        "titulo": "API: Dicionário do Programador",
-        "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-      },
-      {
-        "id": 12,
-        "categoriaId": 2,
-        "titulo": "Usando Git Direito",
-        "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-      },
-      {
-        "id": 13,
-        "categoriaId": 3,
-        "titulo": "Teste de Turing",
-        "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-      },
-      {
-        "id": 14,
-        "categoriaId": 3,
-        "titulo": "O que é Data Science?",
-        "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-      },
-      {
-        "id": 15,
-        "categoriaId": 3,
-        "titulo": "Melhor forma de aprender Python",
-        "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-      },
-      {
-        "id": 16,
-        "categoriaId": 3,
-        "titulo": "Como ingressar no mercado de Data Science?",
-        "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-      },
-      {
-        "id": 17,
-        "categoriaId": 4,
-        "titulo": "Interestellar",
-        "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-      },
-      {
-        "id": 18,
-        "categoriaId": 4,
-        "titulo": "Gattaca",
-        "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-      },
-      {
-        "id": 19,
-        "categoriaId": 4,
-        "titulo": "A Chegada",
-        "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-      },
-      {
-        "id": 20,
-        "categoriaId": 4,
-        "titulo": "Feitiço do Tempo",
-        "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-      },
-      {
-        "id": 21,
-        "categoriaId": 5,
-        "titulo": "Final Fantasy 7",
-        "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-      },
-      {
-        "id": 22,
-        "categoriaId": 5,
-        "titulo": "Assassins Creed Valhalla",
-        "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-      },
-      {
-        "id": 23,
-        "categoriaId": 5,
-        "titulo": "God of War 4",
-        "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-      },
-      {
-        "id": 24,
-        "categoriaId": 5,
-        "titulo": "Resident Evil 8",
-        "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "id": 5,
+      "titulo": "J-Pop ジ ェ イ ポ ッ プ",
+      "cor": "blue",
+      "link_extra": {
+        "text": "O melhor do Pop japonês",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
       }
-    ]
-  }
+    },
+    {
+      "id": 4,
+      "titulo": "池原レアンドロ",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Diapa na mídia",
+        "url": "https://br.linkedin.com/in/leandroikehara/pt-br"
+      }
+    },
+    {
+      "id": 1,
+      "titulo": "オタク",
+      "cor": "green",
+      "link_extra": {
+        "text": "Coisas de Nerd (ou Hipster, se você tiver barba)",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "トレーニング",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Treinos para não ficar parado",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Alura オンラインコース",
+      "cor": "cyan",
+      "link_extra": {
+        "text": "Imersões da Alura na Quarentena",
+        "url": "https://www.alura.com.br/imersao-react"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 50,
+      "categoriaId": 6,
+      "titulo": "Smart Fit Transforma",
+      "description": "Duvido você encontrar algum treino que o Diapa já não tenha feito.",
+      "url": "https://youtu.be/OjGyTK3hdKA"
+    },
+    {
+      "id": 51,
+      "categoriaId": 6,
+      "titulo": "Sushi de esteirinha",
+      "description": "COMO FUNCIONA UM SUSHI DE ESTEIRA NO JAPÃO",
+      "url": "https://www.youtube.com/watch?v=09a-HDzBDgo"
+    },
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "O que é o Coronavírus? | Nerdologia",
+      "description": "No Nerdologia de hoje, vamos entender o que é o Coronavírus e o quão preocupante ele é.",
+      "url": "https://www.youtube.com/watch?v=e-JaQOeFxtI"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Como Jogar no Linux em 2020 - Guia Completo (+Dicas Avançadas)",
+      "url": "https://www.youtube.com/watch?v=7Yd_TugJg3w"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "O QUE MATRIX 4 VAI TER QUE RESPONDER!",
+      "url": "https://www.youtube.com/watch?v=z1S0ALZ3Ees"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Os Simpsons PREVIRAM A NOTA DE 200 REAIS em 2014??",
+      "url": "https://www.youtube.com/watch?v=Jy-oJ0yvmCw"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Encontrei o Melhor App para Estudo e Trabalho (GRÁTIS!) - Notion",
+      "url": "https://www.youtube.com/watch?v=5pM4ES-v6Ls"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "7 BRINQUEDOS QUE TE DECEPCIONARAM MUITO!",
+      "url": "https://www.youtube.com/watch?v=stIc9IOH7EQ"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "7 PROFISSÕES DOS ANOS 90 QUE SUMIRAM!",
+      "url": "https://www.youtube.com/watch?v=eeLnDSNtym8"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "NÃO EXISTE 'MÁSCARA ESPORTIVA'",
+      "url": "https://www.youtube.com/watch?v=-D_Y-cL-a7I"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Treino para secar barriga | #SmartFitEmCasa",
+      "url": "https://www.youtube.com/watch?v=v3JdcSCPS6g"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Selfit | #EmCasaDoSeuJeito | Yoga - Prof. Kemmye",
+      "url": "https://www.youtube.com/watch?v=YVByU4KURcg"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Superioga para iniciantes",
+      "url": "https://www.youtube.com/watch?v=k4q_heMUA80"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "DANCE #LIKENINA | 40-minute Reebok x Les Mills BODYJAM Workout",
+      "url": "https://www.youtube.com/watch?v=Srd6TwU6UoI"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Imersão React",
+      "url": "https://youtu.be/Dcn-tVmSxyU"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Imersão Game Dev",
+      "url": "https://youtu.be/NAGb_i94UYo"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Imersão Hipster CSS",
+      "url": "https://youtu.be/iriinRSXvVc"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Quarentena Dados",
+      "url": "https://youtu.be/OH39rmnIRCY"
+    },
+    {
+      "id": 17,
+      "categoriaId": 4,
+      "titulo": "Smart Fit",
+      "url": "https://www.youtube.com/watch?v=OjGyTK3hdKA"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Coca-Cola / Gastromotiva",
+      "url": "https://www.youtube.com/watch?v=3ObCuzr0usg"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "House of H2OH! 2019",
+      "url": "https://www.youtube.com/watch?v=aTolxlUAUwM"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Fica a Vontade - Pedro Sampaio | FitDance TV",
+      "url": "https://www.youtube.com/watch?v=xaG3RwYbDe0"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Utada Hikaru - First Love",
+      "url": "https://www.youtube.com/watch?v=KPVC7T6FOus"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "Bennie K - Dreamland",
+      "url": "https://www.youtube.com/watch?v=ggRMAkjNFKs"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Yuna Ito - Endless Story",
+      "url": "https://www.youtube.com/watch?v=yRNVq5xdq4U"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Ai Otsuka - Planetarium",
+      "url": "https://www.youtube.com/watch?v=X9Url9atsC0"
+    },
+    {
+      "titulo": "5 Filmes de SAMURAI Inspiradores",
+      "url": "https://www.youtube.com/watch?v=E4moSGmRz0A",
+      "categoriaId": 6,
+      "id": 52
+    },
+    {
+      "titulo": "EM QUAL ORDEM VER OS FILMES DO STUDIO GHIBLI?",
+      "url": "https://www.youtube.com/watch?v=pRk2WeN3uog",
+      "categoriaId": 6,
+      "id": 53
+    },
+    {
+      "titulo": "CAFÉ DA MANHÃ JAPONÊS: TAMAGO KAKE GOHAN",
+      "url": "https://www.youtube.com/watch?v=LKI0NM437x4",
+      "categoriaId": 6,
+      "id": 54
+    },
+    {
+      "titulo": "MARATONA DE PONTOS TURÍSTICOS EM TOKYO",
+      "url": "https://www.youtube.com/watch?v=G-AdN0B1UZg",
+      "categoriaId": 6,
+      "id": 55
+    }
+  ]
+}
