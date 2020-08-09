@@ -4,10 +4,9 @@ import './index.css';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Erro404 from './pages/404';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
-
-const Erro404 = () => (<div>Erro 404</div>);
 
 ReactDOM.render(
   <BrowserRouter>

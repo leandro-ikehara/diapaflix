@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { useEffect, useState } from 'react';
 // import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
@@ -11,12 +12,10 @@ function Home() {
   useEffect(() => {
     categoriasRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
-        // eslint-disable-next-line no-console
         console.log(categoriasComVideos[0].videos[0]);
         setDadosIniciais(categoriasComVideos);
       })
       .catch((err) => {
-        // eslint-disable-next-line no-console
         console.log(err.message);
       });
   }, []);
